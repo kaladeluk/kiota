@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -10,7 +10,7 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>kiota-nullfix-ts</ToolCommandName>
         <PackageId>Kaladel.Kiota.NullabilityFix.TypeScript</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Authors>Kaladel</Authors>
         <Description>
             Post-processes Kiota-generated TypeScript models so that properties marked as
@@ -20,8 +20,8 @@
         </Description>
 
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/kaladel/Kaladel.Kiota</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/kaladel/Kaladel.Kiota</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/kaladeluk/kiota</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/kaladeluk/kiota</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>kiota;openapi;typescript;codegen;nullability;required</PackageTags>
         <PackageReadmeFile>readme.md</PackageReadmeFile>
