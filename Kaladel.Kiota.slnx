@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="readme.md" />
+  </Folder>
+  <Project Path="Kaladel.Kiota.NullabilityFix.TypeScript.Tests/Kaladel.Kiota.NullabilityFix.TypeScript.Tests.csproj" />
+  <Project Path="Kaladel.Kiota.NullabilityFix.TypeScript/Kaladel.Kiota.NullabilityFix.TypeScript.csproj" />
+</Solution>
