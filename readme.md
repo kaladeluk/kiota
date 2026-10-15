@@ -19,6 +19,15 @@ dotnet build
 dotnet test
 ```
 
+## Releasing
+
+Each tool is published to NuGet.org independently via its own GitHub Actions workflow in [.github/workflows](.github/workflows), using NuGet.org's [Trusted Publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing) (OIDC) rather than a stored API key. To cut a release for a tool:
+
+1. Bump `<Version>` in the tool's `.csproj`.
+2. Push a tag matching that tool's pattern (e.g. `nullabilityfix-ts-v0.1.0` for `Kaladel.Kiota.NullabilityFix.TypeScript`) — this triggers the matching workflow, which builds, tests, packs, pushes to NuGet.org, and creates a matching GitHub release.
+
+Each tool's workflow must have a corresponding Trusted Publishing policy configured on NuGet.org (Account → Trusted Publishing) with the repository owner/name and the workflow file name (e.g. `publish-nullabilityfix-ts.yml`).
+
 ## Contributing
 
 Issues and pull requests are welcome. These are small, focused tools — before proposing new functionality, please open an issue to discuss the change first.
