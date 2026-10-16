@@ -6,6 +6,7 @@ A collection of small .NET tools/extensions for working around rough edges in [K
 
 | Tool | Package | Description |
 | --- | --- | --- |
+| [Kaladel.Kiota.ImportExtensionFix.TypeScript](Kaladel.Kiota.ImportExtensionFix.TypeScript/readme.md) | [![NuGet](https://img.shields.io/nuget/v/Kaladel.Kiota.ImportExtensionFix.TypeScript.svg)](https://www.nuget.org/packages/Kaladel.Kiota.ImportExtensionFix.TypeScript/) | Post-processes Kiota-generated TypeScript clients to strip unnecessary `.js` extensions (and redundant `/index` segments) from relative import/export specifiers. |
 | [Kaladel.Kiota.NullabilityFix.TypeScript](Kaladel.Kiota.NullabilityFix.TypeScript/readme.md) | [![NuGet](https://img.shields.io/nuget/v/Kaladel.Kiota.NullabilityFix.TypeScript.svg)](https://www.nuget.org/packages/Kaladel.Kiota.NullabilityFix.TypeScript/) | Post-processes Kiota-generated TypeScript models so that `required` properties from the source OpenAPI document are emitted as required/non-nullable, instead of Kiota's default of making every property optional and nullable. |
 
 See each tool's own README (linked above) for installation and usage instructions specific to that tool.

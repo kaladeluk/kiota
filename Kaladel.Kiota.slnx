@@ -7,4 +7,6 @@
   </Folder>
   <Project Path="Kaladel.Kiota.NullabilityFix.TypeScript.Tests/Kaladel.Kiota.NullabilityFix.TypeScript.Tests.csproj" />
   <Project Path="Kaladel.Kiota.NullabilityFix.TypeScript/Kaladel.Kiota.NullabilityFix.TypeScript.csproj" />
+  <Project Path="Kaladel.Kiota.ImportExtensionFix.TypeScript.Tests/Kaladel.Kiota.ImportExtensionFix.TypeScript.Tests.csproj" />
+  <Project Path="Kaladel.Kiota.ImportExtensionFix.TypeScript/Kaladel.Kiota.ImportExtensionFix.TypeScript.csproj" />
 </Solution>
